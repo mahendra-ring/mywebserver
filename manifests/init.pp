@@ -6,4 +6,7 @@
 #   include mywebserver
 class mywebserver {
 notify {"Initializing the mywebserver apache configuration...":}
+  class { 'mywebserver::install': }
+  class { 'mywebserver::vhost': }
+  class {'mywebserver::content':}
 }
