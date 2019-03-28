@@ -6,7 +6,7 @@
 #   include mywebserver
 class mywebserver {
 notify {"Initializing the mywebserver apache server automated configuration...":}
-#  class { 'mywebserver::install': }
-#  class { 'mywebserver::vhost': }
+  class { 'mywebserver::install': }
+  class { 'mywebserver::vhost': }
 #  class {'mywebserver::content':}
 }
