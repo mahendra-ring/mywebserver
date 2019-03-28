@@ -1,5 +1,5 @@
 ---
-mywebserver::vhost::app_vhosts:  {
+mywebserver::vhosts::app_vhosts:  {
   defaultvhost: {
     docroot: '/var/www/html',
     serveradmin: 'mahendra.soma@gmail.com',
